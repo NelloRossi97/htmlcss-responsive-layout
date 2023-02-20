@@ -120,6 +120,48 @@ main{
 .card button{
     letter-spacing: 3px;
 }
+
+/* planning */
+#planning{
+    color: var(--light-color);
+}
+.planning-img img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#planning h4{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-planning img{
+    width: 100%;
+}
+.card-planning{
+    background-color: var(--light-color);
+    color: black;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card-planning h3{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.card-planning p{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.card-planning a{
+    border-radius: 50%;
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    border: none;
+    color: black;
+}
 /* footer */
 footer{
     background-color: var(--dark);
