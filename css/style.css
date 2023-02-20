@@ -91,12 +91,12 @@ main{
     margin-top: 10px;
     padding: 30px;
 }
-.card-left-btn-img img{
-    width: 100%;
+.card-left-img img{
+    width: 80%;
     position: relative;
     bottom: -35px;
 }
-.card-left-btn-img{
+.card-left-img{
     margin-top: 30px;
 }
 
@@ -112,7 +112,13 @@ main{
 
 .card p{
     font-weight: bold;
+    font-size: 1.3rem;
     color: var(--grey-text);
+    margin-bottom: 60px;
+}
+
+.card button{
+    letter-spacing: 3px;
 }
 /* footer */
 footer{
@@ -131,6 +137,7 @@ footer{
     border: none;
     color: var(--light-color);
     font-weight: bold;
+    font-size: 1rem;
 }
 .btn i{
     margin-right: 5px;
@@ -147,7 +154,23 @@ footer{
     padding-bottom: 50px;
 }
 
+@media screen and (min-width: 768px) {
+    .card{
+        width: calc((100% / 3) - 10px);
+    }
 
+    .card:first-child{
+        width: calc(((100% / 3) - 5px)* 2);
+    }
+
+    .card p{
+        margin-bottom: 0;
+    }
+
+    .card-left p{
+        margin-bottom: 30px;
+    }
+}
 
 
 /* SOLUZIONE DI CHIARA
