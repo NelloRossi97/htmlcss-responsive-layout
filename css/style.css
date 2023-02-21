@@ -537,4 +537,28 @@ footer p:last-child{
     .about-us-card{
         width: 90%;
     }
+    h5{
+        font-size: 1.2rem;
+    }
+    #call-to-action h5{
+        letter-spacing: 3px;
+        font-weight: 100;
+        color: lightgray;
+    }
+    #call-to-action h3{
+        font-size: 3rem;
+    }
+    #call-to-action span{
+        font-size: 6rem;
+    }
+    #call-to-action p{
+        font-size: 1.2rem;
+    }
+    .p-container{
+        width: 50%;
+    }
+    #call-to-action button{
+        padding: 30px 70px;
+    }
+    
 }
