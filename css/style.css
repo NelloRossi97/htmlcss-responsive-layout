@@ -357,6 +357,15 @@ footer p:last-child{
     .card-left p{
         margin-bottom: 30px;
     }
+    #testimonials .testimonials-card{
+        flex-flow: row nowrap;
+        align-items: center;
+        padding: 20px 20px;
+        text-align: left;
+    }
+    .testimonial-right{
+        width: 60%;
+    }
 }
 
 
