@@ -460,4 +460,30 @@ footer p:last-child{
         position: relative;
         bottom: -95px;
     }
+    #planning{
+        padding: 100px 0 50px;
+    }
+    #planning .container{
+        flex-flow: row nowrap;
+    }
+    #planning .planning-img{
+        width: 35%;
+        margin-right:3rem;
+    }
+    .planning-img img{
+        margin: 2rem 0 7rem 0;
+    }
+    .card-planning img{
+        width: 80%;
+    }
+    .card-planning h3{
+        margin-top: 20px;
+    }
+    .card-planning{
+        padding: 40px 40px;
+    }
+    #planning .card-planning-container{
+        width: 35%;
+        align-self: flex-end;
+    }
 }
