@@ -510,4 +510,31 @@ footer p:last-child{
     .card-container{
         justify-content: space-between;
     }
+    #about-us h2{
+        font-size: 5rem;
+    }
+    #about-us p{
+        font-size: 1.4rem;
+    }
+    #about-us h3{
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+    .about-us-img{
+        width: 40%;
+    }
+    #about-us i{
+        font-size: 5rem;
+    }
+    #about-us button{
+        font-weight: 400;
+        padding: 10px 20px;
+    }
+    .about-us-left{
+        width: 100%;
+    }
+    .about-us-card{
+        width: 90%;
+    }
 }
