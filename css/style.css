@@ -342,6 +342,9 @@ footer p:last-child{
     align-items: center;
 }
 
+.item-center{
+    align-items: center;
+}
 
 @media screen and (min-width: 768px) {
     .card{
