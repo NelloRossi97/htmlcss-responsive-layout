@@ -34,7 +34,9 @@ html{
 body{
     font-family: 'PT Sans', sans-serif;
 }
-
+ul{
+    list-style: none;
+}
 .container{
     padding: 20px;
     display: flex;
@@ -79,6 +81,10 @@ section{
 #nav{
     display: flex;
     justify-content: space-between;
+    padding: 12px 10px;
+}
+nav img{
+    padding-left: 15px;
 }
 
 header nav ul{
@@ -401,5 +407,57 @@ footer p:last-child{
     }
     .about-us-img{
         width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    header nav{
+        align-items: center;
+    }
+    header nav i{
+        visibility: hidden;
+    }
+    header nav ul{
+        display: block;
+        display:flex;
+        flex-flow: row nowrap;
+    }
+    header nav li{
+        padding: 1rem;
+    }
+    nav li a{
+        color: var(--light-color);
+        text-decoration: none;
+    }
+
+    nav li span{
+        border-radius: 20px;
+        padding: 5px 10px;
+        background-color: var(--light-color);
+        font-size: 1.1rem;
+    }
+
+    nav li span a{
+        color: black;
+    }
+
+    .text-black-w400{
+        color: black;
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .card-left{
+        display:flex;
+    }
+    .card-left-img img{
+        width: 100%;
+        position: relative;
+        bottom: -95px;
     }
 }
