@@ -366,6 +366,26 @@ footer p:last-child{
     .testimonial-right{
         width: 60%;
     }
+
+    #benefits .container{
+        flex-flow: column wrap;
+    }
+    .card-container{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 10px;
+    }
+    .card-container .card{
+        width: calc((100% / 2) - 10px);
+    }
+    #benefits span{
+        font-size: 5rem;
+    }
+    #benefits p{
+        font-weight: lighter;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
 }
 
 
