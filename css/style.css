@@ -87,7 +87,7 @@ nav img{
     padding-left: 15px;
 }
 
-header nav ul{
+.nav-menu{
     display: none;
 }
 
@@ -421,8 +421,11 @@ footer p:last-child{
     header nav{
         align-items: center;
     }
-    header nav i{
-        visibility: hidden;
+    .nav-menu{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
     }
     header nav ul{
         display: block;
