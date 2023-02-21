@@ -504,4 +504,10 @@ footer p:last-child{
     #testimonials .testimonials-card {
         justify-content: flex-start;
     }
+    .card-container .card {
+        width: calc((100% / 3) - 30px);
+    }
+    .card-container{
+        justify-content: space-between;
+    }
 }
